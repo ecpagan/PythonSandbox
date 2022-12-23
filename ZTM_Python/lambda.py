@@ -1,0 +1,9 @@
+# Square the following list
+my_list = [5, 4, 3]
+
+print(list(map(lambda item: item*item, my_list)))
+
+
+# List Sorting, based on the second value of the tuples
+a = [(0, 2), (4, 3), (9, 9), (10, -1)]
+print(sorted(a, key=lambda x: x[1]))
